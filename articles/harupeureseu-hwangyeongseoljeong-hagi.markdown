@@ -90,8 +90,6 @@ var conf = {
         author: 'Rhio Kim',
         keywords: [ 'node.js', 'javascript', 'html5'javascript ]
     },
-    articles: process.cwd() +'/source/articles',
-    authors: process.cwd() +'/source/authors',
 
     sourceDir: __dirname + '/source',
     publicDir: __dirname + '/_public',

@@ -38,73 +38,73 @@
     <div class="span12">
         <ul class="thumbnails">
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.001.jpg" />
+                <img src="./@img/haroopress.001.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.002.jpg" />
+                <img src="./@img/haroopress.002.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.003.jpg" />
+                <img src="./@img/haroopress.003.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.004.jpg" />
+                <img src="./@img/haroopress.004.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.005.jpg" />
+                <img src="./@img/haroopress.005.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.006.jpg" />
+                <img src="./@img/haroopress.006.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.007.jpg" />
+                <img src="./@img/haroopress.007.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.008.jpg" />
+                <img src="./@img/haroopress.008.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.009.jpg" />
+                <img src="./@img/haroopress.009.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.010.jpg" />
+                <img src="./@img/haroopress.010.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.011.jpg" />
+                <img src="./@img/haroopress.011.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.012.jpg" />
+                <img src="./@img/haroopress.012.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.013.jpg" />
+                <img src="./@img/haroopress.013.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.014.jpg" />
+                <img src="./@img/haroopress.014.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.015.jpg" />
+                <img src="./@img/haroopress.015.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.016.jpg" />
+                <img src="./@img/haroopress.016.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.017.jpg" />
+                <img src="./@img/haroopress.017.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.018.jpg" />
+                <img src="./@img/haroopress.018.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.019.jpg" />
+                <img src="./@img/haroopress.019.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.020.jpg" />
+                <img src="./@img/haroopress.020.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.021.jpg" />
+                <img src="./@img/haroopress.021.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.022.jpg" />
+                <img src="./@img/haroopress.022.jpg" />
             </li>
             <li class="thumbnail span4">
-                <img src="/img/pages/about/haroopress.023.jpg" />
+                <img src="./@img/haroopress.023.jpg" />
             </li>
         </ul>
     </div>

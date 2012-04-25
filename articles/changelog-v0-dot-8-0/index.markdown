@@ -39,4 +39,19 @@
   * worked yahoo weather plugin
   * support contributors plugin
 
+## Github Summary
+v0.8.0 Release Note  : <https://github.com/rhiokim/haroopress/issues?labels=&milestone=8&page=1&state=closed>
 
+## Git Summary
+
+project: haroopress
+
+commits: 206
+
+active : 41 days
+
+files  : 962
+
+authors: 
+
+> rhiokim                 100.0%

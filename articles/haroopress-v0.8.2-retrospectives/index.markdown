@@ -16,7 +16,12 @@
 }
 
 ## 회고(v0.8.2)
-이번 버젼은 [Octopress](http://octopress.org) 데이터 변환 도구를 개발하는 것과 즉각적 빌드(Instant Generating) 가 주된 목표였다.
+이번 버젼은 [Octopress](http://octopress.org) 데이터 변환 도구를 개발하는 것과 즉각적 빌드(Instant Generating) 가 주된 목표였다. 하지만 판단의 오류로 인해 인스턴스 빌드는 보류하였다.
+
+[v0.8.2 milestone](https://github.com/rhiokim/haroopress/issues?milestone=12&state=closed)
+
+계획한 마일스톤은 이보다 좀더 많았지만 즉각적 빌드는 향후 대응하기로 하였다.
+
 
 ### 좋았던 점
 * 옥토프레스의 구조를 분석하면서 Ruby 구문을 읽을 수 있게 됨

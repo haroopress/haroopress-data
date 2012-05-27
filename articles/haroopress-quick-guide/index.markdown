@@ -14,7 +14,7 @@
     "advanced": {}
 }
 
-이 문서는 하루프레스 설치를 위한 퀵 가이드로 Step-by-Step 으로 진행됩니다.
+이 문서는 [하루프레스][haroopress] 설치를 위한 퀵 가이드로 Step-by-Step 으로 진행됩니다.
 기타 문의 사항은 [rhio.kim+haroopress@gmail.com](mailto:rhio.kim+haroopress@gmail.com) 으로 메일 주세요.
 
 ## 기본 요구사항
@@ -24,35 +24,40 @@
 
 * [http://nodejs.org](http://nodejs.org)
 
-노드는 현재 빠르게 개발이 진행중인 오픈소스 프로젝트로 버젼의 변화가 자주 발생하기 때문에 소스를 바로 빌드하는 것보다 루비의 `rvm` 과 같은 노드의 `nvm` 을 이용하는 것이 좋습니다. 아래를 참고해주세요.
+노드는 현재 빠르게 개발이 진행중인 오픈소스 프로젝트로 버젼 업데이트가 자주 발생하기 때문에 소스를 바로 빌드하는 것보다 루비의 `rvm` 과 같은 노드의 `nvm` 을 이용하는 것이 좋습니다. 아래를 참고해주세요.
 
 
 #### 노드 버젼 메니저
-노드 버전 메니저인 `nvm` 을 이용하면 좀 더 쉽게 노드를 설치 및 관리할 수 있습니다.
+노드 버전 메니저인 `nvm` 을 이용하면 좀 더 쉽게 노드를 설치 및 관리할 수 있습니다. 자세한 설치와 사용 방법은 아래의 링크에서 확인하세요.
 
 * [https://github.com/creationix/nvm](https://github.com/creationix/nvm)
 
 ### Git
-하루프레스 엔진은 노드와 6가지의 오픈소스의 조합으로 만들어졌습니다. 그렇다보니 코어 엔진을 제외한 대부분의 모듈들이 Git 서브 모듈로 관리되고 있습니다.  
+[하루프레스](haroopress) 엔진은 노드와 6가지의 오픈소스의 조합으로 만들어졌습니다. 그렇다 보니 코어 엔진을 제외한 대부분의 모듈들이 Git 서브 모듈로 관리되고 있습니다.  
 
-물론 하루프레스도 Git 을 통해 관리되고 있습니다.  아래 공식 사이트에서 각 운영체제에 맞는 버젼을 설치하세요.
+물론 [하루프레스](haroopress)도 Git 을 통해 관리되고 있습니다.  아래 공식 사이트에서 각 운영체제에 맞는 버젼을 설치하세요.
 
 * [http://git-scm.com/](http://git-scm.com/)
 
 ### 지원 운영체제
-현재 하루프레스는 맥 운영체제에서만 테스트가 되어지고 있습니다. 윈도우와 리눅스 지원 여부는 향후 테스트할 예정입니다.  오픈 소스이니만큼 사용하는 분들의 경험이 피드백이 되었으면 하는 소망만 갖고 있습니다.
+현재 [하루프레스](haroopress)는 맥 운영체제에서만 테스트가 되어지고 있고 윈도우와 리눅스 지원 여부는 향후 추가할 예정입니다.  오픈 소스이니만큼 유저들의 경험이 피드백이 된다면 좀더 빠르게 발전할 수 있습니다.
 
 * Mac OS X
+* <del>Linux</del>
+* <del>Window</del>
 
 위의 기본 요구사항이 충족되었다면 이제 직접 설치를 해봅니다.
 
 ## 하루프레스 설치하기
+Git 이 설치되었다면 설치는 사실 굉장히 단순합니다. Github 의 소스를 클론(clone)만 하면 되기 때문입니다.
 
 ### 소스 복제
+소스 복제할 때에는 아래와 같이 복제할 위치를 사이트명으로 해주는 것도 좋습니다.
+
 ```
 // Github.com 의 소스를 내 PC 로 복제합니다.
+$ git clone git@github.com:rhiokim/haroopress.git /path/to/[domain]
 $ git clone git@github.com:rhiokim/haroopress.git /path/to/aaa.mysite.com
-$ git clone git@github.com:rhiokim/haroopress.git /path/to/bbb.mysite.com
 ```
 
 ### 초기화 및 하루프레스 환경설정
@@ -134,3 +139,5 @@ haroo> open http://localhost:8081 ¶
 
 //로컬 서버가 구동되고 생성된 정적 페이지들을 브라우저에서 확인할 수 있게 된다.
 ```
+
+[haroopress]: http://haroopress.github.com

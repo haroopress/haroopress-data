@@ -61,13 +61,15 @@ $ git clone git@github.com:rhiokim/haroopress.git /path/to/aaa.mysite.com
 ```
 
 ### 초기화 및 하루프레스 환경설정
+설치 역시 너무 단순합니다. 
+
 ```
 // aaa.mysite.com 엔진 초기화 및 환경설정
 $ cd /path/to/aaa.mysite.com
 $ make init
-
-// npm 모듈 설치, 서브 모듈 복제, 서브 모듈 빌드
-// 하루프레스 환경설정 
+. . .
+설치과정
+. . .
 haroo> Please! insert your blog title 
 haroo> Please! insert your blog description
 haroo> Please! insert site url (e.g. http://site.com)
@@ -75,6 +77,16 @@ haroo> Author Name? `Rhio Kim`
 /path/to/source/data/authors/`Rhio Kim`.markdown
 haroo> Meta Keyword?
 ```
+설치는 `make init` 명령 하나면 모든 것이 끝이지만 설치 과정에 어떤 일들이 일어나는지 알아두는 것도 하루프레스 해커가 되려면 꼭 필요합니다. 
+
+다음과 같은 과정이 진행됩니다.
+
+1. npm 서브모듈 설치
+2. git 서브모듈 업데이트와 초기화
+3. git 서브모듈 빌드
+4. 하루프레스 환경설정
+5. 배포용 Github 저장소 - 실제로 웹 페이지가 동작할 저장소
+6. 하루프레스 폴더 및 데이터 스켈레톤 생성
 
 환경설정 및 초기화가 완료되었다면 바로 정적 페이지를 생성해보자.
 

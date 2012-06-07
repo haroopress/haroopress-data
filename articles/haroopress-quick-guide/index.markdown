@@ -10,7 +10,7 @@
     "acceptTrackback": true,
     "published": "2012-05-21T05:36:02.635Z",
     "status": "public",
-    "important": false,
+    "important": true,
     "advanced": {}
 }
 
@@ -146,10 +146,10 @@ haroo> article's image path /path/to/aaa.mysite.com/source/data/articles/`포스
 = preview static page
 ========================================
 
+//로컬 서버가 구동되고 생성된 정적 페이지들을 브라우저에서 확인할 수 있게 됩니다.
 haroo> execuate local static webserver¶
 haroo> open http://localhost:8081 ¶
 
-//로컬 서버가 구동되고 생성된 정적 페이지들을 브라우저에서 확인할 수 있게 된다.
+Show me on the browser? [y/n] : 
+//자동으로 브라우저를 실행시키고 싶다면 y 아니라면 n 을 입력하고 엔터치면 됩니다.
 ```
-
-[haroopress]: http://haroopress.github.com

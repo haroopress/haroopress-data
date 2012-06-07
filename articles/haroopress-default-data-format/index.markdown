@@ -104,7 +104,7 @@ cli 명령을 제공하기 때문에 헤더 정보를 직접 생성하는 경우
 내용
 ```
 
-포스팅의 헤더가 다음과 같을때 파일명은 파일명 : `Rhio kim.markdown` 으로 다음과 같이 지정된 경로에 작성자 markdown 이 존재해야 합니다.
+포스팅의 헤더가 다음과 같을때 파일명은 파일명 : `Rhio kim.markdown` 으로 다음과 같이 지정된 경로(`/path/to/haroopress/source/data/authors/Rhio kim.markdown`)에 작성자 markdown 이 존재해야 합니다.
 
 ```js
 {
@@ -129,5 +129,12 @@ cli 명령을 제공하기 때문에 헤더 정보를 직접 생성하는 경우
 }
 
 //여기부터는 소개 내용을 markdown 포맷으로 입력하세요.
+# Header 1
+헤더 1 내용
+
+## Header 2
+헤더 2 내용
+
+[링크](http://haroopress.github.com)
 ...
 ```

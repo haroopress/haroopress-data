@@ -10,7 +10,7 @@
     "acceptTrackback": true,
     "published": "2012-06-22T08:38:28.284Z",
     "status": "public",
-    "important": false,
+    "important": true,
     "advanced": {}
 }
 
@@ -76,3 +76,9 @@ index.markdown 내용 예시
 ![로고 이미지](./@img/logo.png)
 
 ```
+
+## 동영상 가이드
+
+위의 설명이 어렵다면 다음의 동영상을 보고 천천히 따라해보세요.  그래도 어렵다면 저에게(리오) 메일을 띄우거나 댓글로 남겨주시면 되겠죠?
+
+<iframe src="http://player.vimeo.com/video/45558225?color=ffffff" width="100%" height="550" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/45558225">haroopress posting guide</a> from <a href="http://vimeo.com/rhio">rhiokim</a> on <a href="http://vimeo.com">Vimeo</a>.</p>

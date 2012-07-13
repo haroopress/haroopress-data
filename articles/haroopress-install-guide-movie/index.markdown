@@ -27,3 +27,6 @@
 * [하루프레스 퀵 설치 가이드](/post/haroopress-quick-guide)
 * [하루프레스 환경설정 가이드](post/harupeureseu-hwangyeongseoljeong-hagi)
 * [하루프레스 기본 데이터 규약](/post/haroopress-default-data-format)
+
+
+아래 동영상에 보이는 페이지는 현재 제작중에 있으며 웹 사이트에서 확인할 수는 없습니다.

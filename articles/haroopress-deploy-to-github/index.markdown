@@ -1,15 +1,15 @@
 {
     "title": "블로그 깃허브(Github)로 배포하기",
     "author": "Rhio Kim",
-    "date": "2012-05-26T03:45:12.315Z",
+    "date": "Thu, 12 Jul 2012 02:55:25 GMT",
     "categories": [
         "tutorial"
     ],
     "tags": [],
     "acceptComment": true,
     "acceptTrackback": true,
-    "published": "2012-05-26T03:45:12.315Z",
-    "status": "draft",
+    "published": "Thu, 12 Jul 2012 02:55:25 GMT",
+    "status": "public",
     "important": true,
     "advanced": {}
 }
@@ -67,3 +67,7 @@ haroo> git push origin master --force¶
 haroo> completed http://yours.github.com
 haroo> open http://yours.github.com ? [y/n]
 ```
+
+## 동영상
+
+<iframe src="http://player.vimeo.com/video/45679687?color=ffffff" width="100%" height="550" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/45679687">haroopress deploy guide</a> from <a href="http://vimeo.com/rhio">rhiokim</a> on <a href="http://vimeo.com">Vimeo</a>.</p>

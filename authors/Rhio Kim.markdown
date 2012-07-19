@@ -10,4 +10,9 @@
     "email": "rhio.kim@gmail.com"
 }
 
-소개는 여기다가!!
+자바스크립트를 좋아하는 인간입니다. 
+
+* Arduino
+* Node.js
+* HCI
+

@@ -11,7 +11,7 @@
     "acceptComment": true,
     "acceptTrackback": true,
     "published": "2012-04-22T04:41:44.394Z",
-    "status": "draft",
+    "status": "public",
     "important": false,
     "advanced": {}
 }

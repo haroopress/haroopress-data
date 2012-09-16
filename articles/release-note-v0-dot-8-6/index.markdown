@@ -1,15 +1,15 @@
 {
-    "title": "changelog v0.8.5",
+    "title": "release note v0.8.6",
     "author": "Rhio Kim",
-    "date": "Mon Jul 16 2012 17:18:58 GMT+0900 (KST)",
+    "date": "2012-08-26T03:23:55.170Z",
     "categories": [
         "release"
     ],
     "tags": [],
     "acceptComment": true,
     "acceptTrackback": true,
-    "published": "Mon Jul 16 2012 17:18:58 GMT+0900 (KST)",
-    "status": "publish",
+    "published": "2012-08-26T03:23:55.170Z",
+    "status": "draft",
     "important": false,
     "advanced": {}
 }
@@ -22,14 +22,6 @@
 * [이슈 리스트](https://github.com/rhiokim/haroopress/issues?milestone=15&page=1&state=closed)
 
 ### 이슈리스트
-<!--
-* 리눅스 플랫폼에서 `make preview` 지원 ([@nanhapark](http://twitter.com/nanhapark))
-* 블로그 배포용 저장소 `git@github.com` 및 `https://` 프로토콜 모두 지원
-* 팀블로그 운영 시 공헌자(Contributor) 포스팅 개수를 기준으로 내림차순으로 정렬 표시
-* 노드 0.8.1 적용 테스트 
-* RSS 데이터 정렬 오류 수정
-* 코어 변경에 따른 각종 테마 오류 수정
-* 노드 스타일 테마 추가-->
 
 ![](./@img/issues.png)
 

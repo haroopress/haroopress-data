@@ -9,7 +9,7 @@
     "acceptComment": true,
     "acceptTrackback": true,
     "published": "2012-05-21T09:06:14.490Z",
-    "status": "public",
+    "status": "publish",
     "important": false,
     "advanced": {}
 }

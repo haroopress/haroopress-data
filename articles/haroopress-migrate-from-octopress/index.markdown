@@ -9,7 +9,7 @@
     "acceptComment": true,
     "acceptTrackback": true,
     "published": "Wed Jul 18 2012 18:03:48 GMT+0900 (KST)",
-    "status": "public",
+    "status": "publish",
     "important": false,
     "advanced": {}
 }

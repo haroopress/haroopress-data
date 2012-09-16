@@ -9,7 +9,7 @@
     "acceptComment": true,
     "acceptTrackback": true,
     "published": "1971-01-01T00:00:00.001Z",
-    "status": "public",
+    "status": "publish",
     "important": false,
     "advanced": {}
 }

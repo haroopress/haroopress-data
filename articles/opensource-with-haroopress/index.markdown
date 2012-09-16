@@ -9,7 +9,7 @@
     "acceptComment": true,
     "acceptTrackback": true,
     "published": "2012-06-13T01:31:29.608Z",
-    "status": "public",
+    "status": "publish",
     "important": false,
     "advanced": {}
 }
@@ -52,6 +52,9 @@
 * [require.js](http://requirejs.org/)
 * [Bootstrap.js](http://twitter.github.com/bootstrap/javascript.html)
 * [Google Code Prettify](http://code.google.com/p/google-code-prettify/)
+
+#### 프리젠테이션 라이브러리
+* [shower](https://github.com/pepelsbey/shower)
 
 #### 마크업과 스타일시트
 * [트위터 부트스트랩](http://twitter.github.com/bootstrap)

@@ -1,5 +1,6 @@
 {
     "name": "haroopress",
+    "company": "haroopress.com",
     "blog": "http://haroopress.github.com",
     "twitter": "haroopress",
     "github": "haroopress",

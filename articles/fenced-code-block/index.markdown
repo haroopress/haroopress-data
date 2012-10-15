@@ -11,7 +11,9 @@
     "published": "2012-10-03T15:08:38.696Z",
     "status": "draft",
     "important": false,
-    "advanced": {}
+    "advanced": {
+        "codeStyle": "tomorrow-night-blue"
+    }
 }
 
 언젠가부터 웹 페이지에 코드를 표현하고자 할 때 구문 강조 라이브러리를 사용하게 되었다.  최근 Github.com 이 주목을 받으며 마크다운(markdown) 포맷 문서화와 펜스 코드 블럭(fenced code block) 이 자주 활용되곤 한다.
@@ -115,7 +117,7 @@ Tomorrow Night Eighties | **tomorrow-night-eighties**
 좀더 자세한 스타일은 [여기](http://softwaremaniacs.org/media/soft/highlight/test.html)를 참고하세요.
 
 ## 적용 방법
-하루프레스에서는 간단한 방법으로 코드블럭 스타일을 전역적으로 적용할 수 있을 뿐 아니라 각 페이지마다 별도의 디자인을 적용할 수 있다.
+***info 특징*** 하루프레스는 간단한 방법으로 코드블럭 스타일을 전역적으로 적용할 수 있을 뿐 아니라 각 페이지마다 별도의 디자인을 적용할 수 있다.
 
 먼저 마크다운에서 코드 블럭을 지정하는 방법을 알아보도록 하자.
 
@@ -140,6 +142,15 @@ function syntaxhighlight(code, lang) {
 ~~~
 </code></pre>
 
+#### 예시
+
+```javascript
+function syntaxHighlight() {
+   var haroo = 'press';
+   return haroo;
+}
+```
+
 ### 기본 스타일
 기본 스타일은 하루프레스 환경설정 파일에 설정하는 테마로 특별히 지정하지 않는 코드 블럭에는 환경설정에 지정한 스타일로 적용된다.
 
@@ -154,7 +165,7 @@ function syntaxhighlight(code, lang) {
 
 * 참고 : [하루프레스의 기본 데이터 규약](http://haroopress.com/post/haroopress-default-data-format/)
 
-```javascript
+```json
 {
   …,
   advanced : { }
@@ -163,7 +174,7 @@ function syntaxhighlight(code, lang) {
 
 위와 같이 기본적으로 `advanced:{}` 는 빈 객체가 지정되어 있는데 여기에 `codeStyle` 키에 값을 지정하면 된다.
 
-```javascript
+```json
 {
   …,
   advanced: {

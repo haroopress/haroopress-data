@@ -1,30 +1,31 @@
 {
     "title": "구문 강조를 위한 펜스 코드 블럭(fenced code block)",
     "author": "Rhio Kim",
-    "date": "2012-10-03T15:08:38.696Z",
+    "date": "2012-10-03T03:08:38.696Z",
     "categories": [
         "haroopress"
     ],
     "tags": [],
     "acceptComment": true,
     "acceptTrackback": true,
-    "published": "2012-10-03T15:08:38.696Z",
-    "status": "draft",
+    "published": "2012-10-17T18:08:38.696Z",
+    "status": "publish",
     "important": false,
     "advanced": {
         "codeStyle": "tomorrow-night-blue"
     }
 }
 
-언젠가부터 웹 페이지에 코드를 표현하고자 할 때 구문 강조 라이브러리를 사용하게 되었다.  최근 Github.com 이 주목을 받으며 마크다운(markdown) 포맷 문서화와 펜스 코드 블럭(fenced code block) 이 자주 활용되곤 한다.
+> 요즘 컨퍼런스 준비와 회사에서 신규 프로젝트 런칭으로 연일 야근 중, 오늘은 퇴근하고 저녁 밥도 꾸역 꾸역 먹고 피곤에 쓰러져 버렸다. 근데 이 시간에 깨 버렸네. 잠들기 전에 작성하던 v0.9 에 추가된 펜스 코드 블럭에 대한 소개나 할까 한다.
 
-특히 개발자 블로그에서는 필수 유틸이라고 할 수 있다.
+언젠가부터 웹 페이지에 코드를 표현하고자 할 때 IDE 와 동일하게 구문 강조 라이브러리를 사용하게 되었다.  최근 Github.com 이 주목을 받으며 마크다운(markdown) 포맷 문서화와 펜스 코드 블럭(fenced code block) 이 자주 활용되곤 한다.  
 
 하루프레스 0.9.0 버젼에서는 구문 강조를 위한 펜스 코드 블럭을 제공한다. 뿐만 아니라 코드블럭에 원하는 스타일을 적용할 수도 있다.
 
 ### 구문강조 라이브러리
-구문 강조는 [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) 를 이용했다.  [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) 는 52 가지 언어를 지원하고 26가지의 유명한 구문 강조 스타일을 제공한다.
+구문 강조는 [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) 를 이용했다.  [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) 는 52 가지 언어를 지원하고 26가지의 유명한 구문 강조 스타일(코드 테마)을 제공한다.
 
+#### 지원언어
 
 Language  | key
 ------------- | -------------
@@ -81,7 +82,7 @@ Rust | rust
 Matlab | matlab
 R | r
 
-### 구문강조 스타일 종류
+### 구문강조 테마 종류
 
 Style | key
 ----- | -----
@@ -117,12 +118,12 @@ Tomorrow Night Eighties | **tomorrow-night-eighties**
 좀더 자세한 스타일은 [여기](http://softwaremaniacs.org/media/soft/highlight/test.html)를 참고하세요.
 
 ## 적용 방법
-***info 특징*** 하루프레스는 간단한 방법으로 코드블럭 스타일을 전역적으로 적용할 수 있을 뿐 아니라 각 페이지마다 별도의 디자인을 적용할 수 있다.
+***info 특징*** 하루프레스는 간단한 방법으로 코드블럭 테마를 전역적으로 적용할 수 있을 뿐 아니라 각 페이지마다 별도의 테마를 적용할 수 있다.
 
 먼저 마크다운에서 코드 블럭을 지정하는 방법을 알아보도록 하자.
 
 ### 코드 블럭
-마크다운에서 기본 코드 블럭은 1tab 혹은 4spaces 이다.  그런데 [Github.com](http://github.github.com/github-flavored-markdown/) 에서는 3개의 backtick <code>`</code> 을 연달아 작성하는 것으로 구문강조 코드 블럭을 지원하면서 이 **Fenced Code Block** 가 코드 블럭의 기본 방식처럼 되어가고 있다.
+마크다운에서 기본 코드 블럭은 1 tab 혹은 4 spaces 이다.  그런데 [Github.com](http://github.github.com/github-flavored-markdown/) 에서는 3개의 backtick <code>`</code> 을 연달아 작성하는 것으로 구문강조 코드 블럭을 지원하면서 이 **Fenced Code Block** 가 코드 블럭의 기본 방식처럼 되어가고 있다.
 
 그외에 tilde <code>~</code> 3개를 이용해 코드 블럭을 지정하는 방법 중에 하나이다.
 
@@ -135,7 +136,7 @@ fenced code block
 ~~~
 
 ~~~javascript
-function syntaxhighlight(code, lang) {
+function syntaxHighlight(code, lang) {
    var foo = 'rhio';
    var bar = 33;
 }
@@ -144,12 +145,31 @@ function syntaxhighlight(code, lang) {
 
 #### 예시
 
+**javascript**
+
 ```javascript
 function syntaxHighlight() {
    var haroo = 'press';
    return haroo;
 }
 ```
+
+**ruby**
+
+```ruby
+def syntaxHighlight
+  @haroo = 'press'
+  return @haroo
+end
+```
+
+**python**
+
+```python
+def syntaxHighlight():
+    haroo = "press"
+    return haroo
+ ```
 
 ### 기본 스타일
 기본 스타일은 하루프레스 환경설정 파일에 설정하는 테마로 특별히 지정하지 않는 코드 블럭에는 환경설정에 지정한 스타일로 적용된다.

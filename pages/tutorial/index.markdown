@@ -20,6 +20,7 @@
 ### 공식 메뉴얼
 
 ***inverse 설치방법***
+
 * [하루프레스 퀵 가이드](http://haroopress.com/post/haroopress-quick-guide/)
 * [5분만에 설치하는 하루프레스 동영상](http://haroopress.com/post/haroopress-install-guide-movie/)
 

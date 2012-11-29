@@ -20,3 +20,5 @@
 * [http://nezz.pe.kr/](http://nezz.pe.kr/)
 * [http://insanehong.kr/](http://insanehong.kr/)
 * [http://4oxmile.github.com/](http://4oxmile.github.com/)
+* [http://simonkim.github.com/](http://simonkim.github.com/)
+* [http://juhoi.github.com/](http://juhoi.github.com/)

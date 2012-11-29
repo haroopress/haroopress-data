@@ -51,5 +51,17 @@
 > * [하루프레스 개인도메인 설정방법](http://nezz.pe.kr/post/harupeureseu-gaeindomein-seoljeongbangbeob/)
 > * [Cloud9 IDE에 하루프레스 설치하기!](http://nezz.pe.kr/post/haroopress-on-cloud-9/)
 
+##### simplepress
+> twitter: [@kaoma](http://https://twitter.com/kaoma), blog: [http://simonkim.github.com/](http://simonkim.github.com/)
+>
+> * [How I installed Haroopress](http://simonkim.github.com/post/setup-progress-so-far/)
+> * [Before setting up your own Haroopress blog](http://simonkim.github.com/post/before-setting-up-your-own-haroopress-blog/)
+
+##### Juhoi's haroopress
+[link](http://juhoi.github.com/post/haroopress%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0-dot-dot-dot/)
+
+### 컨퍼런스/세미나 
+> * playnode 컨퍼런스 하루프레스 프리젠테이션 (2012.11.20): [http://www.slideshare.net/rhio.kim/nodejs-15277380](http://www.slideshare.net/rhio.kim/nodejs-15277380)
+
 ### 기사/보도자료
 * [하루프레스, 서버도 데이타베이스도 필요없는 블로그 서비스](http://platum.kr/archives/3265) via 스타트업을 위한 디지털 미디어 [플래텀](http://platum.kr/)

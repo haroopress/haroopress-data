@@ -58,7 +58,12 @@
 > * [Before setting up your own Haroopress blog](http://simonkim.github.com/post/before-setting-up-your-own-haroopress-blog/)
 
 ##### Juhoi's haroopress
-[link](http://juhoi.github.com/post/haroopress%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0-dot-dot-dot/)
+> twitter: [@ByJuhoi](https://twitter.com/ByJuhoi), blog: [http://juhoi.github.com](http://juhoi.github.com)
+> * [Haroopress를 시작하며...](http://juhoi.github.com/post/haroopress%EB%A5%BC-%EC%8B%9C%EC%9E%91%ED%95%98%EB%A9%B0-dot-dot-dot/)
+
+##### iMaZiNe's Dev. Diary
+> twitter: [@imazine80](https://twitter.com/imazine80), blog: [http://imdevdiary.blogspot.kr/](http://imdevdiary.blogspot.kr/)
+> * [Lubuntu 12.10 에 HarooPress 를 설치해 보자.](http://imdevdiary.blogspot.kr/2012/11/lubuntu-1210-haroopress.html?spref=tw)
 
 ### 컨퍼런스/세미나 
 > * playnode 컨퍼런스 하루프레스 프리젠테이션 (2012.11.20): [http://www.slideshare.net/rhio.kim/nodejs-15277380](http://www.slideshare.net/rhio.kim/nodejs-15277380)

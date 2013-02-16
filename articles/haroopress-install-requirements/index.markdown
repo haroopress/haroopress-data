@@ -99,31 +99,32 @@ $ sudo chgrp -R <group> myblog.com   (<group> 을 본인의 그룹으로 설정)
 > XCode 실행 > Preferences > Downloads > Command Line Tools > install
 > ![image](./@img/cmd_tools.png)
     
-#### java 
-***important 하루프레스 v0.9.3 에서 Java 의존성은 없어질 예정입니다.***
+#### ~~java~~
+***important 하루프레스 v0.9.2 에서 Java 의존성이 없어졌습니다.***
 
-* Ubuntu
+* ~~Ubuntu~~
     
 > ```
 > $ sudo apt-get default-jre
 > ```
     
-* Mac OS X
+* ~~Mac OS X~~
 
-> 맥의 경우 JRE(Java Runtime Enviornment) 가 기본적으로 설치되어 있으나 최신 Mac OS 에서는 제외된다는 이야기가 있어, 설치되어 있지 않은 경우 [Java SE Runtime Environment 7 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1637588.html) 에서 다운로드 받아 설치하면 된다.
+> ***important v0.9.2*** 에서 자바 의존성이 제거되었습니다.
+>> ~~맥의 경우 JRE(Java Runtime Enviornment) 가 기본적으로 설치되어 있으나 최신 Mac OS 에서는 제외된다는 이야기가 있어, 설치되어 있지 않은 경우 [Java SE Runtime Environment 7 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jre7-downloads-1637588.html) 에서 다운로드 받아 설치하면 된다.~~
 > 
-> 자세한 설치 방법은 오라클 공식 메뉴얼 [JRE 7 Installation for Mac OS X](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jre.html) 을 확인하세요.
+> ~~자세한 설치 방법은 오라클 공식 메뉴얼 [JRE 7 Installation for Mac OS X](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jre.html) 을 확인하세요.~~
 
-#### python ([다운로드](http://www.python.org/download/))
-***important 하루프레스 v0.9.3 에서 python 의존성은 없어질 예정입니다.***
+#### ~~python ([다운로드](http://www.python.org/download/))~~
+***important 하루프레스 v0.9.3 에서 python 의존성이 없어졌습니다..***
 
-* Ubuntu
+* ~~Ubuntu~~
     
 > ```
 > $ sudo apt-get python
 > ```
     
-* Mac OS X
+* ~~Mac OS X~~
     
 > ```
 > $ brew install python

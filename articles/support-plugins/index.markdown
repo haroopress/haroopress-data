@@ -120,3 +120,10 @@ Github.com 의 gist 를 블로그 포스팅에서 포함시킬 수 있는 플러
 
 **become**
 [vimeo:53157569]
+
+### pdf
+
+**pdf**
+
+**become**
+[pdf:clock.co.uk/downloads/ten-reasons-to-use-nodejs.pdf]

@@ -80,7 +80,7 @@ cli 명령을 제공하기 때문에 헤더 정보를 직접 생성하는 경우
     "acceptComment": true,                 //댓글 설정(disqus)
     "acceptTrackback": true,               //트랙백 설정
     "published": "2012-05-14T04:33:48.267Z",    //공개된 날짜
-    "status": "public",                         //공개 상태 설정(public or draft)
+    "status": "publish",                         //공개 상태 설정(publish or draft)
     "important": false,                         //중요 리본 설정
     "advanced": {                               //기타 고급 설정
         "layout": "page"                        //

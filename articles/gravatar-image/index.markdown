@@ -1,5 +1,5 @@
 {
-    "title": "gravatar image",
+    "title": "그라바타 이미지 적용하기",
     "author": "Rhio Kim",
     "date": "2013-02-16T04:14:51.875Z",
     "categories": [
@@ -27,7 +27,7 @@ Gravatar(이하 그라바타) 서비스를 모르는 분들이라면 하루프�
 
 ### Gravatar?
 
-> Gravatar는 블로그에 글을 쓰거나 댓글을 쓰는 것 같은 일을 할 때 이름 옆에 나타나서 사이트마다 당신을 따라다니는 그림이에요. 아바타는 블로그나 웹 포럼에 올라온 당신의 글들을 확인하는 것을 도와줘요. 모든 사이트에서 안 될 이유가 있나요? <small>http://ko.gravatar.com/</small>
+> Gravatar는 블로그에 글을 쓰거나 댓글을 쓰는 것 같은 일을 할 때 이름 옆에 나타나서 사이트마다 당신을 따라다니는 그림이에요. 아바타는 블로그나 웹 포럼에 올라온 당신의 글들을 확인하는 것을 도와줘요. 모든 사이트에서 안 될 이유가 있나요? <small>via http://ko.gravatar.com/</small>
 
 우리는 많은 서비스들에서 자신의 아이덴티티를 표현하는 아이디와 이미지(아바타)를 대부분 갖고 있다. 이점에 타겟팅을 한 서비스이다.
 
@@ -38,7 +38,7 @@ WordPress, Github, Disqus, Stackoverflow 등 다양한 곳에서 그라바타 �
 이미 커뮤니티를 통해 작성된 좋은 메뉴얼들을 참고하면 되어 여기에서 별도의 설명은 없다. 
 사실 방법이 그리 복잡하지도 않다. 
 
-* [GRAVATAR 그라바타](http://ilmol.com/web101/gravatar) <cite> via http://ilmol.com/web101/gravatar</cite>
+* [GRAVATAR 그라바타](http://ilmol.com/web101/gravatar) <small> via http://ilmol.com/web101/gravatar</small>
 
 ### 하루프레스에서는 어떻게?
 
@@ -61,7 +61,7 @@ WordPress, Github, Disqus, Stackoverflow 등 다양한 곳에서 그라바타 �
 디렉토리에 대한 부연 설명을 간단히 하자면 다음과 같다.
 
 * articles : 포스팅 Raw 데이터 디렉토리
-* authors : 저작자 정보 디렉토리
+* **authors : 저작자 정보 디렉토리**
 * favorites.markdown : 즐겨찾기 파일
 * pages : 페이지 형태의 포스팅 디렉토리
 * slides : 슬라이드 형태의 포스팅 디렉토리
